@@ -1,4 +1,4 @@
-# quiz-service
+# exam-service
 
 ## 1. Các quy tắc đặt tên phổ biến
 -  **Pascal Case:** Chữ cái đầu tiên trong từ định danh và chữ cái đầu tiên của mỗi từ nối theo sau phải được viết hoa. Sử dụng Pascal Case để đặt tên cho một tên có từ 3 ký tự trở lên.
