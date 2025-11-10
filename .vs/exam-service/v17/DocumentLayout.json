@@ -1,7 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\webapi\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\bo\\entities\\questionbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|solutionrelative:bo\\entities\\questionbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\bo\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|solutionrelative:bo\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\webapi\\controllers\\questionbankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\questionbankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\services\\implementations\\questionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\implementations\\questionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\services\\interface\\iquestionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\interface\\iquestionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\dtos\\response\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\dtos\\response\\questionbanksummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionbanksummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\dtos\\response\\questionbankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionbankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\dtos\\request\\question\\updatequestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\question\\updatequestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\dtos\\request\\question\\createquestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\question\\createquestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\dtos\\request\\questionbank\\updatequestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\questionbank\\updatequestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|c:\\users\\user\\desktop\\prn232\\assignment\\exam-service\\dtos\\request\\questionbank\\createquestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\questionbank\\createquestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
             },
             {
               "$type": "Bookmark",
@@ -21,11 +82,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -33,77 +90,213 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 91,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{7615f12e-922a-545a-b9a0-3305b93d08c0}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T19:17:52.235Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T14:22:56.084Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExamsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\WebAPI\\Controllers\\ExamsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ExamsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\WebAPI\\Controllers\\ExamsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ExamsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T17:02:49.041Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "QuestionBanksController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\WebAPI\\Controllers\\QuestionBanksController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\QuestionBanksController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\WebAPI\\Controllers\\QuestionBanksController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\QuestionBanksController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:17:05.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuestionBankResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Response\\QuestionBankResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\QuestionBankResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Response\\QuestionBankResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\QuestionBankResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:06:04.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateQuestionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:05:31.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateQuestionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\Question\\CreateQuestionRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\Question\\CreateQuestionRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\Question\\CreateQuestionRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\Question\\CreateQuestionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:04:47.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuestionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Response\\QuestionResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\QuestionResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Response\\QuestionResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\QuestionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:37:54.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\BO\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "BO\\Entities\\Question.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\BO\\Entities\\Question.cs",
+              "RelativeToolTip": "BO\\Entities\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:34:48.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionBank.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\BO\\Entities\\QuestionBank.cs",
+              "RelativeDocumentMoniker": "BO\\Entities\\QuestionBank.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\BO\\Entities\\QuestionBank.cs",
+              "RelativeToolTip": "BO\\Entities\\QuestionBank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:48:08.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "QuestionBankSummaryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Response\\QuestionBankSummaryResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\QuestionBankSummaryResponse.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Response\\QuestionBankSummaryResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\QuestionBankSummaryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:06:09.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IQuestionBankService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\Services\\Interface\\IQuestionBankService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IQuestionBankService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\Services\\Interface\\IQuestionBankService.cs",
+              "RelativeToolTip": "Services\\Interface\\IQuestionBankService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:06:53.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuestionBankService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\Services\\Implementations\\QuestionBankService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\QuestionBankService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\Services\\Implementations\\QuestionBankService.cs",
+              "RelativeToolTip": "Services\\Implementations\\QuestionBankService.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAAAK8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:37:27.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateQuestionBankRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\QuestionBank\\UpdateQuestionBankRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\QuestionBank\\UpdateQuestionBankRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\QuestionBank\\UpdateQuestionBankRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\QuestionBank\\UpdateQuestionBankRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:02:54.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateQuestionBankRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\PRN232\\Assignment\\exam-service\\DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:49:26.573Z"
             }
           ]
         }
