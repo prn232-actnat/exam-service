@@ -31,8 +31,10 @@ namespace Services.Implementations
                 throw new BusinessRuleException("Bài thi phải có ít nhất 1 câu hỏi.");
             }
 
+            // Validate questions exist
+            var questionIds = createDto.QuestionIds.Distinct().ToList();
             var questions = new List<Question>();
-            foreach (var qId in createDto.QuestionIds.Distinct())
+            foreach (var qId in questionIds)
             {
                 var question = await _unitOfWork.Questions.GetByIdAsync(qId);
                 if (question == null)
@@ -42,23 +44,33 @@ namespace Services.Implementations
                 questions.Add(question);
             }
 
+            // Map createDto -> Exam entity (ignore ExamQuestions in mapping config)
             var exam = _mapper.Map<Exam>(createDto);
-            exam.Id = Guid.NewGuid(); // Tạo Guid mới cho Exam
+            exam.Id = exam.Id == Guid.Empty ? Guid.NewGuid() : exam.Id;
+
+            // Ensure collection exists
+            exam.ExamQuestions = new List<ExamQuestion>();
+
+            // Add exam to repo (EF will track it)
             await _unitOfWork.Exams.AddAsync(exam);
 
             int order = 1;
             foreach (var question in questions)
             {
+                // Only set IDs to avoid cross-context attach issues
                 exam.ExamQuestions.Add(new ExamQuestion
                 {
-                    Question = question,
-                    Exam = exam,
+                    ExamId = exam.Id,
+                    QuestionId = question.Id,
                     Order = order++
                 });
             }
 
             await _unitOfWork.CompleteAsync();
-            return _mapper.Map<ExamDetailResponse>(exam);
+
+            // Reload exam with questions if your repo returns detached entity (optional)
+            var created = await _unitOfWork.Exams.GetExamWithQuestionsAsync(exam.Id);
+            return _mapper.Map<ExamDetailResponse>(created ?? exam);
         }
 
         public async Task DeleteExamAsync(Guid examId)
@@ -98,9 +110,13 @@ namespace Services.Implementations
 
             _mapper.Map(updateDto, exam);
 
+            // Ensure collection exists
+            exam.ExamQuestions = exam.ExamQuestions ?? new List<ExamQuestion>();
             exam.ExamQuestions.Clear();
+
+            var questionIds = (updateDto.QuestionIds ?? new List<Guid>()).Distinct().ToList();
             var questions = new List<Question>();
-            foreach (var qId in updateDto.QuestionIds.Distinct())
+            foreach (var qId in questionIds)
             {
                 var question = await _unitOfWork.Questions.GetByIdAsync(qId);
                 if (question == null)

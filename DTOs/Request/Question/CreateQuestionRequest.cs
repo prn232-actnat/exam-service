@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTOs.Request.QuestionOption;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,17 +10,11 @@ namespace DTOs.Request.Question
 {
     public class CreateQuestionRequest
     {
-        [Required]
-        public string QuestionText { get; set; }
-
-        [Required]
-        public string QuestionType { get; set; } // "MultipleChoice", "ShortAnswer"
-
-        [Required]
         public Guid QuestionBankId { get; set; }
-        [Required]
-        public string CorrectAnswer { get; set; }
-
+        public string QuestionText { get; set; }
+        public string QuestionType { get; set; } // "MultipleChoice" hoặc "ShortAnswer"
         public string AudioUrl { get; set; }
+
+        public List<QuestionOptionCreateRequest> Options { get; set; } = new();
     }
 }

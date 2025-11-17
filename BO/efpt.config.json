@@ -31,6 +31,10 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[QuestionOptions]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[Questions]",
          "ObjectType": 0
       },

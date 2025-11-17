@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTOs.Response.DTOs.Response;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,7 @@ namespace DTOs.Response
         public string QuestionType { get; set; }
         public Guid QuestionBankId { get; set; }
         public string AudioUrl { get; set; }
+
+        public List<QuestionOptionResponse> Options { get; set; } = new();
     }
 }

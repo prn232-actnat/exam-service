@@ -19,11 +19,13 @@ namespace Repositories.Implementations
         // Triển khai phương thức đặc thù
         public async Task<Exam> GetExamWithQuestionsAsync(Guid examId)
         {
-            // _context có thể được truy cập vì nó là 'protected'
             return await _context.Exams
-                .Include(e => e.ExamQuestions)       // Nạp bảng trung gian
-                .ThenInclude(eq => eq.Question) // Nạp bảng Question từ bảng trung gian
-                .FirstOrDefaultAsync(e => e.Id == examId);
+                .AsNoTracking()
+                .Include(e => e.ExamQuestions)
+                    .ThenInclude(eq => eq.Question)
+                        .ThenInclude(q => q.QuestionOptions)   // <- bắt buộc
+                .Where(e => e.Id == examId)
+                .FirstOrDefaultAsync();
         }
     }
 }

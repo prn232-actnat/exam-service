@@ -6,11 +6,9 @@ using DTOs.Request.Question;
 using DTOs.Request.QuestionBank;
 using DTOs.Request.Submission;
 using DTOs.Response;
+using DTOs.Response.DTOs.Response;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services.Mappings
 {
@@ -18,7 +16,6 @@ namespace Services.Mappings
     {
         public AutoMapperProfile()
         {
-            // --- Map từ Request DTO -> BO (Entity) ---
             CreateMap<CreateQuestionBankRequest, QuestionBank>();
             CreateMap<UpdateQuestionBankRequest, QuestionBank>();
 
@@ -35,17 +32,23 @@ namespace Services.Mappings
 
             CreateMap<CreateExamSetRequest, ExamSet>();
 
-            // --- Map từ BO (Entity) -> Response DTO ---
             CreateMap<QuestionBank, QuestionBankResponse>();
             CreateMap<QuestionBank, QuestionBankSummaryResponse>();
 
-            CreateMap<Question, QuestionResponse>(); // Sẽ tự động bỏ qua CorrectAnswer
+            CreateMap<Question, QuestionResponse>()
+                .ForMember(dest => dest.Options,
+                           opt => opt.MapFrom(src => src.QuestionOptions.OrderBy(o => o.OptionIndex)));
+
+            CreateMap<QuestionOption, QuestionOptionResponse>();
 
             CreateMap<Exam, ExamSummaryResponse>();
+
             CreateMap<Exam, ExamDetailResponse>()
                 .ForMember(dest => dest.Questions,
                            opt => opt.MapFrom(src =>
-                               src.ExamQuestions.Select(eq => eq.Question)));
+                               src.ExamQuestions
+                                  .OrderBy(eq => eq.Order)
+                                  .Select(eq => eq.Question)));
 
             CreateMap<Submission, SubmissionResultResponse>();
             CreateMap<ExamSet, ExamSetResponse>();

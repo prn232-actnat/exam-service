@@ -3,16 +3,124 @@
   "WorkspaceRootPath": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\services\\implementations\\submissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\implementations\\submissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\examset\\createexamsetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\examset\\createexamsetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\implementations\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\implementations\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\questionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\interface\\iquestionbankrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iquestionbankrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\services\\implementations\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\implementations\\examservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\controllers\\examsetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\examsetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\services\\implementations\\questionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\implementations\\questionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\response\\questionbankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionbankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\interface\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\interface\\iquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\services\\implementations\\examsetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\implementations\\examsetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\bo\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|solutionrelative:bo\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\services\\interface\\iquestionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\interface\\iquestionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\question\\updatequestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\question\\updatequestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\question\\createquestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\question\\createquestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\questionbank\\createquestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\questionbank\\createquestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\questionoption\\questionoptioncreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\questionoption\\questionoptioncreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\services\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\response\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\response\\examdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\examdetailresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\response\\questionoptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionoptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\data\\examservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\data\\examservicedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\controllers\\submissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\submissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\controllers\\questionbankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\questionbankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\bo\\entities\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|solutionrelative:bo\\entities\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\examset\\createexamsetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\examset\\createexamsetrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\migrations\\examservicedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\migrations\\20251105095117_initialcreatewithguid.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\migrations\\20251105095117_initialcreatewithguid.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\implementations\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\examrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\bo\\entities\\examquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +151,6 @@
       "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\implementations\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\examscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A5B3CFA1-410E-B31F-F804-4CC6C048FE3E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -67,44 +163,12 @@
       "RelativeMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|solutionrelative:bo\\entities\\questionbank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\bo\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12E1A646-BCD7-473D-BFA3-EE3D8C9ABEE8}|BO\\BO.csproj|solutionrelative:bo\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\webapi\\controllers\\questionbankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D6B33C5-CEE1-20B5-A207-99CBB61F699C}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\questionbankscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\services\\interface\\iquestionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|Services\\Services.csproj|solutionrelative:services\\interface\\iquestionbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\response\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\response\\questionbanksummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionbanksummaryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\response\\questionbankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\response\\questionbankresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\question\\updatequestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\question\\updatequestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\question\\createquestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\question\\createquestionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\questionbank\\updatequestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\questionbank\\updatequestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|s:\\university\\semester_8\\prn232\\project\\exam-service\\dtos\\request\\questionbank\\createquestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01BE701E-B7EB-47C4-B466-3A3C08E5E315}|DTOs\\DTOs.csproj|solutionrelative:dtos\\request\\questionbank\\createquestionbankrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,125 +178,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 15,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Program.cs",
-              "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:35:04.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateExamSetRequest.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
-              "RelativeToolTip": "DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:34:32.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ExamServiceDbContextModelSnapshot.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:34:27.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20251105095117_InitialCreateWithGuid.Designer.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
-              "RelativeDocumentMoniker": "Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
-              "RelativeToolTip": "Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:34:21.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\UnitOfWork.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\UnitOfWork.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\UnitOfWork.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:34:16.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ExamQuestion.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\ExamQuestion.cs",
-              "RelativeDocumentMoniker": "BO\\Entities\\ExamQuestion.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\ExamQuestion.cs",
-              "RelativeToolTip": "BO\\Entities\\ExamQuestion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:31:38.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "QuestionBankService.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\QuestionBankService.cs",
-              "RelativeDocumentMoniker": "Services\\Implementations\\QuestionBankService.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\QuestionBankService.cs",
-              "RelativeToolTip": "Services\\Implementations\\QuestionBankService.cs",
-              "ViewState": "AgIAAMQAAAAAAAAAAAAiwNYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T08:37:27.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "QuestionBankRepository.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\QuestionBankRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\QuestionBankRepository.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\QuestionBankRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\QuestionBankRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:30:41.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\Repository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\Repository.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\Repository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:30:28.222Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -295,97 +242,163 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ExamSetRepository.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamSetRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\ExamSetRepository.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamSetRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\ExamSetRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SubmissionService.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\SubmissionService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\SubmissionService.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\SubmissionService.cs",
+              "RelativeToolTip": "Services\\Implementations\\SubmissionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:30:22.449Z",
+              "WhenOpened": "2025-11-17T19:22:28.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IQuestionBankRepository.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Interface\\IQuestionBankRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IQuestionBankRepository.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Interface\\IQuestionBankRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IQuestionBankRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T19:10:51.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionRepository.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\QuestionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\QuestionRepository.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\QuestionRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\QuestionRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:34:43.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IQuestionBankService.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Interface\\IQuestionBankService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IQuestionBankService.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Interface\\IQuestionBankService.cs",
+              "RelativeToolTip": "Services\\Interface\\IQuestionBankService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:06:53.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\UnitOfWork.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\UnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\UnitOfWork.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:34:16.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExamService.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\ExamService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ExamService.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\ExamService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ExamService.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAQwJAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:14:23.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ExamRepository.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\Implementations\\ExamRepository.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamRepository.cs",
-              "RelativeToolTip": "Repositories\\Implementations\\ExamRepository.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:29:30.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Exam.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Exam.cs",
-              "RelativeDocumentMoniker": "BO\\Entities\\Exam.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Exam.cs",
-              "RelativeToolTip": "BO\\Entities\\Exam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T06:16:48.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Repositories.csproj",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Repositories.csproj",
-              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Repositories.csproj",
-              "RelativeToolTip": "Repositories\\Repositories.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-05T19:17:52.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-05T14:22:56.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "ExamsController.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\ExamsController.cs",
               "RelativeDocumentMoniker": "WebAPI\\Controllers\\ExamsController.cs",
               "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\ExamsController.cs",
               "RelativeToolTip": "WebAPI\\Controllers\\ExamsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T17:02:49.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "QuestionBanksController.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\QuestionBanksController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\QuestionBanksController.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\QuestionBanksController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\QuestionBanksController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ExamRepository.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\ExamRepository.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\ExamRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T09:17:05.856Z",
+              "WhenOpened": "2025-11-17T06:29:30.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 7,
+              "Title": "QuestionBankService.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\QuestionBankService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\QuestionBankService.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\QuestionBankService.cs",
+              "RelativeToolTip": "Services\\Implementations\\QuestionBankService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwBAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:37:27.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExamSetsController.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\ExamSetsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ExamSetsController.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\ExamSetsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\ExamSetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:43:02.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IQuestionRepository.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Interface\\IQuestionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IQuestionRepository.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Interface\\IQuestionRepository.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:35:30.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Interface\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interface\\IUnitOfWork.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Interface\\IUnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\Interface\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:33:53.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "QuestionBankResponse.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionBankResponse.cs",
               "RelativeDocumentMoniker": "DTOs\\Response\\QuestionBankResponse.cs",
@@ -398,59 +411,344 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 15,
               "Title": "UpdateQuestionRequest.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
               "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
               "RelativeToolTip": "DTOs\\Request\\Question\\UpdateQuestionRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T09:05:31.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 16,
               "Title": "CreateQuestionRequest.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\Question\\CreateQuestionRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\Request\\Question\\CreateQuestionRequest.cs",
               "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\Question\\CreateQuestionRequest.cs",
               "RelativeToolTip": "DTOs\\Request\\Question\\CreateQuestionRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T09:04:47.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "QuestionResponse.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\Response\\QuestionResponse.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionResponse.cs",
-              "RelativeToolTip": "DTOs\\Response\\QuestionResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T08:37:54.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "Question.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Question.cs",
               "RelativeDocumentMoniker": "BO\\Entities\\Question.cs",
               "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Question.cs",
               "RelativeToolTip": "BO\\Entities\\Question.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T08:34:48.726Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
+              "Title": "ExamSetService.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\ExamSetService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ExamSetService.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Implementations\\ExamSetService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ExamSetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:20:49.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateQuestionBankRequest.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:49:26.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QuestionOptionCreateRequest.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\QuestionOption\\QuestionOptionCreateRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\QuestionOption\\QuestionOptionCreateRequest.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\QuestionOption\\QuestionOptionCreateRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\QuestionOption\\QuestionOptionCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:25:03.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Services\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Services\\Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:18:32.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ExamDetailResponse.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\ExamDetailResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\ExamDetailResponse.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\ExamDetailResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\ExamDetailResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:16:38.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "QuestionOptionResponse.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionOptionResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\QuestionOptionResponse.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionOptionResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\QuestionOptionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:17:33.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExamServiceDBContext.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Data\\ExamServiceDBContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\Data\\ExamServiceDBContext.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Data\\ExamServiceDBContext.cs",
+              "RelativeToolTip": "Repositories\\Data\\ExamServiceDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:16:34.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SubmissionsController.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\SubmissionsController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\SubmissionsController.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\SubmissionsController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\SubmissionsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:43:07.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuestionResponse.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\QuestionResponse.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionResponse.cs",
+              "RelativeToolTip": "DTOs\\Response\\QuestionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T08:37:54.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20251105095117_InitialCreateWithGuid.Designer.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
+              "RelativeDocumentMoniker": "Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
+              "RelativeToolTip": "Repositories\\Migrations\\20251105095117_InitialCreateWithGuid.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:34:21.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "QuestionBanksController.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\QuestionBanksController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\QuestionBanksController.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Controllers\\QuestionBanksController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\QuestionBanksController.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAUwIQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T09:17:05.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:35:04.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Submission.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Submission.cs",
+              "RelativeDocumentMoniker": "BO\\Entities\\Submission.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Submission.cs",
+              "RelativeToolTip": "BO\\Entities\\Submission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:42:42.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-17T09:36:08.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ExamServiceDbContextModelSnapshot.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Repositories\\Migrations\\ExamServiceDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:34:27.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateExamSetRequest.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
+              "RelativeToolTip": "DTOs\\Request\\ExamSet\\CreateExamSetRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:34:32.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ExamQuestion.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\ExamQuestion.cs",
+              "RelativeDocumentMoniker": "BO\\Entities\\ExamQuestion.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\ExamQuestion.cs",
+              "RelativeToolTip": "BO\\Entities\\ExamQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:31:38.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "QuestionBankRepository.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\QuestionBankRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\QuestionBankRepository.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\QuestionBankRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\QuestionBankRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:30:41.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\Repository.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:30:28.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ExamSetRepository.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamSetRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\ExamSetRepository.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Implementations\\ExamSetRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\ExamSetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:30:22.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Exam.cs",
+              "RelativeDocumentMoniker": "BO\\Entities\\Exam.cs",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\Exam.cs",
+              "RelativeToolTip": "BO\\Entities\\Exam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T06:16:48.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Repositories.csproj",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T19:17:52.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\Properties\\launchSettings.json",
+              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\WebAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T14:22:56.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "QuestionBank.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\BO\\Entities\\QuestionBank.cs",
               "RelativeDocumentMoniker": "BO\\Entities\\QuestionBank.cs",
@@ -463,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 40,
               "Title": "QuestionBankSummaryResponse.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Response\\QuestionBankSummaryResponse.cs",
               "RelativeDocumentMoniker": "DTOs\\Response\\QuestionBankSummaryResponse.cs",
@@ -476,20 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IQuestionBankService.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Interface\\IQuestionBankService.cs",
-              "RelativeDocumentMoniker": "Services\\Interface\\IQuestionBankService.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\Services\\Interface\\IQuestionBankService.cs",
-              "RelativeToolTip": "Services\\Interface\\IQuestionBankService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wBwAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T09:06:53.52Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 41,
               "Title": "UpdateQuestionBankRequest.cs",
               "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\QuestionBank\\UpdateQuestionBankRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\Request\\QuestionBank\\UpdateQuestionBankRequest.cs",
@@ -498,19 +783,6 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T09:02:54.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CreateQuestionBankRequest.cs",
-              "DocumentMoniker": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
-              "ToolTip": "S:\\university\\semester_8\\PRN232\\project\\exam-service\\DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
-              "RelativeToolTip": "DTOs\\Request\\QuestionBank\\CreateQuestionBankRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T08:49:26.573Z",
               "EditorCaption": ""
             }
           ]

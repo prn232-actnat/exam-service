@@ -3,8 +3,7 @@ using DTOs.Request.QuestionBank;
 using DTOs.Response;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace Services.Interface
@@ -21,11 +20,13 @@ namespace Services.Interface
         // --- Question ---
         Task<QuestionResponse> GetQuestionByIdAsync(Guid questionId);
         Task<IEnumerable<QuestionResponse>> GetQuestionsByBankIdAsync(Guid bankId);
-        Task<QuestionResponse> CreateQuestionAsync(CreateQuestionRequest createDto);
-        Task UpdateQuestionAsync(Guid questionId, UpdateQuestionRequest updateDto);
+        Task<QuestionResponse> CreateQuestionAsync(CreateQuestionRequest createDto); // create includes QuestionOptions
+        Task UpdateQuestionAsync(Guid questionId, UpdateQuestionRequest updateDto);   // update may include options
         Task DeleteQuestionAsync(Guid questionId);
 
-        // --- Chức năng Import ---
+        // --- Import from Excel ---
+        // fileStream: uploaded Excel file stream. Template expects columns:
+        // QuestionText, QuestionType, OptionA, OptionB, OptionC, OptionD, CorrectOptionIndex (0-based), AudioUrl
         Task ImportQuestionsFromExcelAsync(Guid bankId, Stream fileStream);
     }
 }

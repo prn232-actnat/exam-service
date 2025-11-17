@@ -43,7 +43,7 @@ namespace Services.Implementations
             }
 
             var submission = _mapper.Map<Submission>(requestDto);
-            submission.Id = Guid.NewGuid(); // Tạo Guid mới cho Submission
+            submission.Id = Guid.NewGuid();
             submission.StartedAt = DateTime.UtcNow;
 
             await _unitOfWork.Submissions.AddAsync(submission);
@@ -89,22 +89,54 @@ namespace Services.Implementations
                 answer.Id = Guid.NewGuid(); // Tạo Guid mới cho SubmissionAnswer
                 answer.SubmissionId = submissionId;
 
-                // So sánh đáp án (nên dùng StringComparison.OrdinalIgnoreCase
-                // để không phân biệt hoa thường)
-                answer.IsCorrect = string.Equals(
-                    question.CorrectAnswer,
-                    answer.SelectedAnswer,
-                    StringComparison.OrdinalIgnoreCase);
+               
+                string correctOptionText = null;
+                if (question.QuestionOptions != null && question.QuestionOptions.Any())
+                {
+                    var correctOpt = question.QuestionOptions.FirstOrDefault(o => o.IsCorrect);
+                    if (correctOpt != null)
+                        correctOptionText = correctOpt.OptionText;
+                }
+
+                string expected = null;
+                if (!string.IsNullOrWhiteSpace(correctOptionText))
+                    expected = correctOptionText;
+                else if (!string.IsNullOrWhiteSpace(question.CorrectAnswer))
+                    expected = question.CorrectAnswer;
+
+                string submittedText = answer.SelectedAnswer?.Trim();
+                string expectedText = expected?.Trim();
+
+                // If expectedText is null => cannot evaluate; treat as incorrect
+                bool isCorrect = false;
+                if (!string.IsNullOrEmpty(expectedText) && !string.IsNullOrEmpty(submittedText))
+                {
+                    isCorrect = string.Equals(expectedText, submittedText, StringComparison.OrdinalIgnoreCase);
+                }
+                else
+                {
+                    // if expected exists but submitted empty => incorrect; else keep false
+                    isCorrect = false;
+                }
+
+                answer.IsCorrect = isCorrect;
 
                 if (answer.IsCorrect)
                 {
                     correctCount++;
                 }
+
                 await _unitOfWork.SubmissionAnswers.AddAsync(answer);
             }
 
             submission.SubmittedAt = DateTime.UtcNow;
-            submission.Score = (double)correctCount / questionsInExam.Count * 10.0; // Tính điểm thang 10
+
+            // avoid divide-by-zero
+            var totalQuestions = questionsInExam.Count;
+            if (totalQuestions == 0)
+                submission.Score = 0;
+            else
+                submission.Score = (double)correctCount / totalQuestions * 10.0; // thang 10
 
             _unitOfWork.Submissions.Update(submission);
             await _unitOfWork.CompleteAsync();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DTOs.Request.QuestionOption;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -18,5 +19,8 @@ namespace DTOs.Request.Question
         public string CorrectAnswer { get; set; }
 
         public string AudioUrl { get; set; }
+
+        public List<QuestionOptionCreateRequest> Options { get; set; } = new();
+    
     }
 }

@@ -23,6 +23,8 @@ public partial class ExamServiceDBContext : DbContext
 
     public virtual DbSet<QuestionBank> QuestionBanks { get; set; }
 
+    public virtual DbSet<QuestionOption> QuestionOptions { get; set; }
+
     public virtual DbSet<Submission> Submissions { get; set; }
 
     public virtual DbSet<SubmissionAnswer> SubmissionAnswers { get; set; }
@@ -65,6 +67,14 @@ public partial class ExamServiceDBContext : DbContext
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Description).IsRequired();
             entity.Property(e => e.Name).IsRequired();
+        });
+
+        modelBuilder.Entity<QuestionOption>(entity =>
+        {
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.OptionText).IsRequired();
+
+            entity.HasOne(d => d.Question).WithMany(p => p.QuestionOptions).HasForeignKey(d => d.QuestionId);
         });
 
         modelBuilder.Entity<Submission>(entity =>

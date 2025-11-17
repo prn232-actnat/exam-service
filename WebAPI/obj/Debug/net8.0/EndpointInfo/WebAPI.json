@@ -1328,32 +1328,29 @@
         "additionalProperties": false
       },
       "CreateQuestionRequest": {
-        "required": [
-          "correctAnswer",
-          "questionBankId",
-          "questionText",
-          "questionType"
-        ],
         "type": "object",
         "properties": {
-          "questionText": {
-            "minLength": 1,
-            "type": "string"
-          },
-          "questionType": {
-            "minLength": 1,
-            "type": "string"
-          },
           "questionBankId": {
             "type": "string",
             "format": "uuid"
           },
-          "correctAnswer": {
-            "minLength": 1,
-            "type": "string"
+          "questionText": {
+            "type": "string",
+            "nullable": true
+          },
+          "questionType": {
+            "type": "string",
+            "nullable": true
           },
           "audioUrl": {
             "type": "string",
+            "nullable": true
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuestionOptionCreateRequest"
+            },
             "nullable": true
           }
         },
@@ -1632,6 +1629,45 @@
         },
         "additionalProperties": false
       },
+      "QuestionOptionCreateRequest": {
+        "type": "object",
+        "properties": {
+          "optionIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "optionText": {
+            "type": "string",
+            "nullable": true
+          },
+          "isCorrect": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuestionOptionResponse": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "optionIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "optionText": {
+            "type": "string",
+            "nullable": true
+          },
+          "isCorrect": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
       "QuestionResponse": {
         "type": "object",
         "properties": {
@@ -1653,6 +1689,13 @@
           },
           "audioUrl": {
             "type": "string",
+            "nullable": true
+          },
+          "options": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuestionOptionResponse"
+            },
             "nullable": true
           }
         },

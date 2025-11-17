@@ -21,5 +21,7 @@ public partial class Question
 
     public virtual QuestionBank QuestionBank { get; set; }
 
+    public virtual ICollection<QuestionOption> QuestionOptions { get; set; } = new List<QuestionOption>();
+
     public virtual ICollection<SubmissionAnswer> SubmissionAnswers { get; set; } = new List<SubmissionAnswer>();
 }

@@ -39,12 +39,6 @@ S:\university\semester_8\PRN232\project\quiz-service\Services\obj\Debug\net8.0\r
 S:\university\semester_8\PRN232\project\quiz-service\Services\obj\Debug\net8.0\Services.pdb
 S:\university\semester_8\PRN232\project\quiz-service\Services\obj\Debug\net8.0\ref\Services.dll
 S:\university\semester_8\PRN232\project\quiz-service\Services\obj\Debug\net8.0\Services.sourcelink.json
-S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
-S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
-S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
-S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
-S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
-S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.sourcelink.json
 S:\university\semester_8\PRN232\project\exam-service\Services\bin\Debug\net8.0\Services.deps.json
 S:\university\semester_8\PRN232\project\exam-service\Services\bin\Debug\net8.0\Services.dll
 S:\university\semester_8\PRN232\project\exam-service\Services\bin\Debug\net8.0\Services.pdb
@@ -54,6 +48,12 @@ S:\university\semester_8\PRN232\project\exam-service\Services\bin\Debug\net8.0\R
 S:\university\semester_8\PRN232\project\exam-service\Services\bin\Debug\net8.0\DTOs.pdb
 S:\university\semester_8\PRN232\project\exam-service\Services\bin\Debug\net8.0\Repositories.pdb
 S:\university\semester_8\PRN232\project\exam-service\Services\bin\Debug\net8.0\BO.pdb
+S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.sourcelink.json
 S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.csproj.Up2Date
 S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\Services.dll
 S:\university\semester_8\PRN232\project\exam-service\Services\obj\Debug\net8.0\refint\Services.dll
