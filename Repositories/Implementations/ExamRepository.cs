@@ -1,6 +1,5 @@
 using BO.Entities;
 using Microsoft.EntityFrameworkCore;
-using Repositories.Data;
 using Repositories.Interface;
 using System;
 using System.Collections.Generic;
@@ -13,7 +12,7 @@ namespace Repositories.Implementations
     public class ExamRepository : Repository<Exam>, IExamRepository
     {
         // Kế thừa constructor của lớp cha (Repository<Exam>)
-        public ExamRepository(ExamServiceDbContext context) : base(context)
+        public ExamRepository(ExamServiceDBContext context) : base(context)
         {
         }
 

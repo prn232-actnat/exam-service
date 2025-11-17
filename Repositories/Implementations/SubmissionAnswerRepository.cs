@@ -1,5 +1,5 @@
 using BO.Entities;
-using Repositories.Data;
+
 using Repositories.Interface;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ namespace Repositories.Implementations
 {
     public class SubmissionAnswerRepository : Repository<SubmissionAnswer>, ISubmissionAnswerRepository
     {
-        public SubmissionAnswerRepository(ExamServiceDbContext context) : base(context)
+        public SubmissionAnswerRepository(ExamServiceDBContext context) : base(context)
         {
         }
     }

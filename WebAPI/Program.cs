@@ -1,6 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BO.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Repositories.Data;
+
 using Repositories.Implementations;
 using Repositories.Interface;
 using Services.Implementations;
@@ -12,7 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<ExamServiceDbContext>(options =>
+builder.Services.AddDbContext<ExamServiceDBContext>(options =>
     options.UseSqlServer(connectionString,
         // Chỉ định cho EF Core biết file Migrations nằm ở project nào
         b => b.MigrationsAssembly("Repositories")));

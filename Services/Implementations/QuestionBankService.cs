@@ -212,7 +212,6 @@ namespace Services.Implementations
                             QuestionText = questionText,
                             QuestionType = questionType,
                             CorrectAnswer = correctAnswer,
-                            AudioUrl = audioUrl
                         });
                     }
                 }

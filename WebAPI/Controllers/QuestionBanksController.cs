@@ -10,7 +10,7 @@ using System.IO;
 namespace WebAPI.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/Exams/[controller]")]
     public class QuestionBanksController : ControllerBase
     {
         private readonly IQuestionBankService _qBankService;

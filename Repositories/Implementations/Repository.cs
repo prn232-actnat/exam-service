@@ -1,6 +1,7 @@
+using BO.Entities;
 using Microsoft.EntityFrameworkCore;
+
 using Repositories.Interface;
-using Repositories.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,10 +14,10 @@ namespace Repositories.Implementations
     public class Repository<T> : IRepository<T> where T : class
     {
         // Dùng 'protected' để các lớp con (ExamRepository) có thể truy cập
-        protected readonly ExamServiceDbContext _context;
+        protected readonly ExamServiceDBContext _context;
         protected readonly DbSet<T> _dbSet;
 
-        public Repository(ExamServiceDbContext context)
+        public Repository(ExamServiceDBContext context)
         {
             _context = context;
             _dbSet = context.Set<T>();

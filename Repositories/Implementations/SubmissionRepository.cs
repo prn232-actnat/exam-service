@@ -1,6 +1,6 @@
 using BO.Entities;
 using Microsoft.EntityFrameworkCore;
-using Repositories.Data;
+
 using Repositories.Interface;
 using System;
 using System.Collections.Generic;
@@ -12,7 +12,7 @@ namespace Repositories.Implementations
 {
     public class SubmissionRepository : Repository<Submission>, ISubmissionRepository
     {
-        public SubmissionRepository(ExamServiceDbContext context) : base(context)
+        public SubmissionRepository(ExamServiceDBContext context) : base(context)
         {
         }
 

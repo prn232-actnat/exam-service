@@ -7,7 +7,7 @@ using WebAPI.CustomResponse;
 namespace WebAPI.Controllers
 {
     [ApiController]
-    [Route("api/v1/[controller]")]
+    [Route("api/v1/Exams/[controller]")]
     public class ExamSetsController : ControllerBase
     {
         private readonly IExamSetService _examSetService;

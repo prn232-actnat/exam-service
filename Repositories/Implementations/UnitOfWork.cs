@@ -1,4 +1,5 @@
-using Repositories.Data;
+
+using BO.Entities;
 using Repositories.Interface;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace Repositories.Implementations
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly ExamServiceDbContext _context;
+        private readonly ExamServiceDBContext _context;
 
         // --- Khai báo các thuộc tính từ Interface ---
         public IExamRepository Exams { get; private set; }
@@ -20,7 +21,7 @@ namespace Repositories.Implementations
         public IExamSetRepository ExamSets { get; private set; }
         public ISubmissionAnswerRepository SubmissionAnswers { get; private set; }
 
-        public UnitOfWork(ExamServiceDbContext context)
+        public UnitOfWork(ExamServiceDBContext context)
         {
             _context = context;
 
