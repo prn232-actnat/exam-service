@@ -209,8 +209,7 @@ namespace Services.Implementations
 
             try
             {
-                ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
-
+                
                 using (var package = new ExcelPackage(fileStream))
                 {
                     if (package.Workbook.Worksheets.Count == 0)
